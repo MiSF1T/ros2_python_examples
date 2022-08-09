@@ -1,0 +1,35 @@
+[1.313s] Invoking command in '/home/misfit/test_ws/src/practice': PYTHONPATH=/home/misfit/test_ws/src/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/practice build --build-base /home/misfit/test_ws/src/build/practice/build install --prefix /home/misfit/test_ws/src/install/practice --record /home/misfit/test_ws/src/build/practice/install.log --single-version-externally-managed
+[1.602s] running egg_info
+[1.602s] creating ../build/practice/practice.egg-info
+[1.603s] writing ../build/practice/practice.egg-info/PKG-INFO
+[1.603s] writing dependency_links to ../build/practice/practice.egg-info/dependency_links.txt
+[1.603s] writing entry points to ../build/practice/practice.egg-info/entry_points.txt
+[1.603s] writing requirements to ../build/practice/practice.egg-info/requires.txt
+[1.603s] writing top-level names to ../build/practice/practice.egg-info/top_level.txt
+[1.603s] writing manifest file '../build/practice/practice.egg-info/SOURCES.txt'
+[1.607s] reading manifest file '../build/practice/practice.egg-info/SOURCES.txt'
+[1.608s] writing manifest file '../build/practice/practice.egg-info/SOURCES.txt'
+[1.608s] running build
+[1.608s] running build_py
+[1.608s] creating /home/misfit/test_ws/src/build/practice/build
+[1.609s] creating /home/misfit/test_ws/src/build/practice/build/lib
+[1.609s] creating /home/misfit/test_ws/src/build/practice/build/lib/practice
+[1.609s] copying practice/__init__.py -> /home/misfit/test_ws/src/build/practice/build/lib/practice
+[1.609s] running install
+[1.609s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.609s]   warnings.warn(
+[1.609s] running install_lib
+[1.610s] creating /home/misfit/test_ws/src/install/practice/lib/python3.10/site-packages/practice
+[1.610s] copying /home/misfit/test_ws/src/build/practice/build/lib/practice/__init__.py -> /home/misfit/test_ws/src/install/practice/lib/python3.10/site-packages/practice
+[1.611s] byte-compiling /home/misfit/test_ws/src/install/practice/lib/python3.10/site-packages/practice/__init__.py to __init__.cpython-310.pyc
+[1.611s] running install_data
+[1.611s] creating /home/misfit/test_ws/src/install/practice/share/ament_index
+[1.611s] creating /home/misfit/test_ws/src/install/practice/share/ament_index/resource_index
+[1.611s] creating /home/misfit/test_ws/src/install/practice/share/ament_index/resource_index/packages
+[1.611s] copying resource/practice -> /home/misfit/test_ws/src/install/practice/share/ament_index/resource_index/packages
+[1.611s] copying package.xml -> /home/misfit/test_ws/src/install/practice/share/practice
+[1.611s] running install_egg_info
+[1.614s] Copying ../build/practice/practice.egg-info to /home/misfit/test_ws/src/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info
+[1.614s] running install_scripts
+[1.642s] writing list of installed files to '/home/misfit/test_ws/src/build/practice/install.log'
+[1.707s] Invoked command in '/home/misfit/test_ws/src/practice' returned '0': PYTHONPATH=/home/misfit/test_ws/src/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/practice build --build-base /home/misfit/test_ws/src/build/practice/build install --prefix /home/misfit/test_ws/src/install/practice --record /home/misfit/test_ws/src/build/practice/install.log --single-version-externally-managed

@@ -1,0 +1,42 @@
+[1.329s] Invoking command in '/home/misfit/test_ws/src/talker/talker': PYTHONPATH=/home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/misfit/test_ws/src/build/talker/build install --prefix /home/misfit/test_ws/src/install/talker --record /home/misfit/test_ws/src/build/talker/install.log --single-version-externally-managed
+[1.607s] running egg_info
+[1.607s] creating ../../build/talker/talker.egg-info
+[1.607s] writing ../../build/talker/talker.egg-info/PKG-INFO
+[1.608s] writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt
+[1.608s] writing entry points to ../../build/talker/talker.egg-info/entry_points.txt
+[1.608s] writing requirements to ../../build/talker/talker.egg-info/requires.txt
+[1.608s] writing top-level names to ../../build/talker/talker.egg-info/top_level.txt
+[1.608s] writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[1.610s] reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[1.611s] writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[1.612s] running build
+[1.612s] running build_py
+[1.612s] creating /home/misfit/test_ws/src/build/talker/build
+[1.612s] creating /home/misfit/test_ws/src/build/talker/build/lib
+[1.612s] creating /home/misfit/test_ws/src/build/talker/build/lib/talker
+[1.613s] copying talker/main.py -> /home/misfit/test_ws/src/build/talker/build/lib/talker
+[1.613s] copying talker/main2.py -> /home/misfit/test_ws/src/build/talker/build/lib/talker
+[1.613s] copying talker/__init__.py -> /home/misfit/test_ws/src/build/talker/build/lib/talker
+[1.614s] running install
+[1.614s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.614s]   warnings.warn(
+[1.616s] running install_lib
+[1.617s] creating /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker
+[1.618s] copying /home/misfit/test_ws/src/build/talker/build/lib/talker/main.py -> /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker
+[1.618s] copying /home/misfit/test_ws/src/build/talker/build/lib/talker/main2.py -> /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker
+[1.618s] copying /home/misfit/test_ws/src/build/talker/build/lib/talker/__init__.py -> /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker
+[1.619s] byte-compiling /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker/main.py to main.cpython-310.pyc
+[1.619s] byte-compiling /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker/main2.py to main2.cpython-310.pyc
+[1.620s] byte-compiling /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker/__init__.py to __init__.cpython-310.pyc
+[1.620s] running install_data
+[1.621s] creating /home/misfit/test_ws/src/install/talker/share/ament_index
+[1.621s] creating /home/misfit/test_ws/src/install/talker/share/ament_index/resource_index
+[1.621s] creating /home/misfit/test_ws/src/install/talker/share/ament_index/resource_index/packages
+[1.622s] copying resource/talker -> /home/misfit/test_ws/src/install/talker/share/ament_index/resource_index/packages
+[1.622s] copying package.xml -> /home/misfit/test_ws/src/install/talker/share/talker
+[1.622s] running install_egg_info
+[1.626s] Copying ../../build/talker/talker.egg-info to /home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info
+[1.627s] running install_scripts
+[1.655s] Installing talker script to /home/misfit/test_ws/src/install/talker/lib/talker
+[1.655s] writing list of installed files to '/home/misfit/test_ws/src/build/talker/install.log'
+[1.732s] Invoked command in '/home/misfit/test_ws/src/talker/talker' returned '0': PYTHONPATH=/home/misfit/test_ws/src/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/misfit/test_ws/src/build/talker/build install --prefix /home/misfit/test_ws/src/install/talker --record /home/misfit/test_ws/src/build/talker/install.log --single-version-externally-managed

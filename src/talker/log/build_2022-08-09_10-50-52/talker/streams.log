@@ -1,0 +1,29 @@
+[0.592s] Invoking command in '/home/misfit/test_ws/src/talker': PYTHONPATH=/home/misfit/test_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/misfit/test_ws/build/talker/build install --prefix /home/misfit/test_ws/install/talker --record /home/misfit/test_ws/build/talker/install.log --single-version-externally-managed
+[0.811s] running egg_info
+[0.812s] writing ../../build/talker/talker.egg-info/PKG-INFO
+[0.812s] writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt
+[0.812s] writing entry points to ../../build/talker/talker.egg-info/entry_points.txt
+[0.813s] writing requirements to ../../build/talker/talker.egg-info/requires.txt
+[0.813s] writing top-level names to ../../build/talker/talker.egg-info/top_level.txt
+[0.814s] reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[0.815s] writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[0.815s] running build
+[0.815s] running build_py
+[0.815s] copying talker/main.py -> /home/misfit/test_ws/build/talker/build/lib/talker
+[0.816s] copying talker/main2.py -> /home/misfit/test_ws/build/talker/build/lib/talker
+[0.816s] running install
+[0.816s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.816s]   warnings.warn(
+[0.816s] running install_lib
+[0.816s] copying /home/misfit/test_ws/build/talker/build/lib/talker/main.py -> /home/misfit/test_ws/install/talker/lib/python3.10/site-packages/talker
+[0.816s] copying /home/misfit/test_ws/build/talker/build/lib/talker/main2.py -> /home/misfit/test_ws/install/talker/lib/python3.10/site-packages/talker
+[0.816s] byte-compiling /home/misfit/test_ws/install/talker/lib/python3.10/site-packages/talker/main.py to main.cpython-310.pyc
+[0.817s] byte-compiling /home/misfit/test_ws/install/talker/lib/python3.10/site-packages/talker/main2.py to main2.cpython-310.pyc
+[0.817s] running install_data
+[0.818s] running install_egg_info
+[0.819s] removing '/home/misfit/test_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info' (and everything under it)
+[0.819s] Copying ../../build/talker/talker.egg-info to /home/misfit/test_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info
+[0.820s] running install_scripts
+[0.840s] Installing talker script to /home/misfit/test_ws/install/talker/lib/talker
+[0.840s] writing list of installed files to '/home/misfit/test_ws/build/talker/install.log'
+[0.869s] Invoked command in '/home/misfit/test_ws/src/talker' returned '0': PYTHONPATH=/home/misfit/test_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/misfit/test_ws/build/talker/build install --prefix /home/misfit/test_ws/install/talker --record /home/misfit/test_ws/build/talker/install.log --single-version-externally-managed
