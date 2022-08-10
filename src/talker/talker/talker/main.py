@@ -1,4 +1,3 @@
-from ast import In
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String, Int32
@@ -36,7 +35,7 @@ class PublisherNode(Node):
         msg1 = Int32()
         msg2 = Int32()
         msg1.data = self.count
-        msg2.data = self.count+5
+        msg2.data = self.count+5        #2nd publisher data = pub1.data + 5
 
         self.count+=10
         

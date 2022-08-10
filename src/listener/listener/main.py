@@ -30,7 +30,7 @@ class SubscriberPublisher(Node):
             10
         )
 
-        timer_period = 0.5 ##Delay of 0.5s
+        timer_period = 0.5          #Delay of 0.5s
         self.timer = self.create_timer(
             timer_period, self.timer_callback
         )
